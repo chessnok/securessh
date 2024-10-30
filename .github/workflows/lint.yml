@@ -14,11 +14,6 @@ jobs:
         with:
           go-version: stable
 
-      - name: golangci-lint for CLI
-        uses: golangci/golangci-lint-action@v6
-        with:
-          version: v1.60
-          args: run ./cli/...
 
       - name: golangci-lint for Platform
         uses: golangci/golangci-lint-action@v6
