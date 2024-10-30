@@ -2,6 +2,8 @@ name: Go Platform
 
 on:
   push:
+    branches:
+      - main
   pull_request:
 
 jobs:
